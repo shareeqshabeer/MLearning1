@@ -18,13 +18,13 @@ st.table(cars_datapart)
 st.header("Visualisation Using Seaborn")
 
 st.text("Total data rows:")
-st.text(df['Dimensions.Height'].count())
+st.text(cars_datapart['Dimensions.Height'].count())
 
 st.text("Average fuel economy(City):")
-st.text(df['Fuel Information.City mpg'].mean())
+st.text(cars_datapart['Fuel Information.City mpg'].mean())
 
 st.text("Average fuel economy(Highway):")
-st.text(df['Fuel Information.Highway mpg'].mean())
+st.text(cars_datapart['Fuel Information.Highway mpg'].mean())
 
 #bar plot
 st.subheader("Bar Plot")
